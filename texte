@@ -1,0 +1,40 @@
+
+
+    <article> 
+        <div class="article-div">
+            <div>
+            <div>
+                <h4>
+                    Match du 22/08/2020
+                </h4>
+                <p>
+                    Résumé du match contrat Lille.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <h4>
+                    Les numéros de maillots
+                </h4>
+                <p>
+                    Vous retrouverez les numéros des maillots de la saison 2020/2021.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <h4>
+                    Les nouveaux maillots
+                </h4>
+                <p>
+                    Vous retrouverez les nouveaux maillots de la saison 2020/2021.
+                </p>
+            </div>
+            <hr>
+        </div>
+        </div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+    </article> 

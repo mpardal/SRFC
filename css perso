@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: no-repeat center/cover url(photo/banniere.jpg);
+    height: 300px;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-lien a{
+    margin-left: 20px;
+    color: black;
+    background-color: red;
+    margin: 0 10px;
+    padding: 0 10px;
+    text-decoration: none ;
+}
+.header-lien a:hover {
+    background: black;
+    color: red;
+}
+.header-image{
+    background-color: white;
+    padding: 5px, 5px;
+}
+.article-div{
+    width: 20%;
+}
+
+
+

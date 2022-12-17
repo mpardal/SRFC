@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 0%, 0.87);
+    line-height: 1.875;
+}
+
+.header{
+    position: absolute fixed;
+    background-color: rgb(133, 10, 10);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 31px 87px;
+}
+
+.header nav{
+    float: left;
+}
+
+.header nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0 50px;
+    opacity: .5;
+}
+
+.header nav a:hover, .header .active{
+    background-color: black;
+    color: rgb(133, 10, 10);
+    opacity: 1;
+}
+.header-image{
+    float: right;
+}
+
+.header-image a {
+    margin-right: 15px;
+    opacity: .5;
+}
+
+.header-image a:hover{
+    opacity: 1;
+}
+.sidebar{
+    float: right;
+    width: 20%;
+    background: #FBFBFB;
+}
+.main{
+    width: 80%;
+    float: left;
+    padding-left: 25%;
+}
+
+.thead{
+    text-align: center;
+    color: whitesmoke;
+}
+td{
+    text-align: center;
+    color: black;
+    background: red;
+}
+
+th{
+    text-align: center;
+    color: red;
+    background: black;
+}
+.team{
+    table-layout: auto;
+    width: 150px;
+}
+.score{
+    width: 50px;
+}
+.cat a{
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+}
+.cat a:hover{
+    opacity: 1;
+}
+.ligne{
+    width: 80%;
+}
+.title{
+    text-align: center;
+}
+footer{
+    clear: both;
+}
+.Match{
+    text-decoration: none;
+    color: red;
+}
+
+
+/**
+@media screen and (max-width: 1200px){
+    .header nav a{
+        color: black;
+        text-decoration: none;
+        padding: 0 25px;
+        opacity: .5;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .header nav a{
+        color: black;
+        text-decoration: none;
+        padding: 0 10px;
+        opacity: .5;
+    }
+}
+**/
